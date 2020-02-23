@@ -1,5 +1,55 @@
 /*
     Author: Fu-D Team
-    Last modified: 2/20/20
+    Last modified: 2/22/20
     Last modified by: Sam Lohbeck 
  */
+
+ /* Reset CSS */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Create Forte font */
+ @font-face {
+    font-family: 'Forte';
+    src: url("/fonts/FORTE.TTF") format('truetype');
+  }
+
+ /* Body CSS */
+ body {
+     background-color: #C6BE9E;
+ }
+
+/* Temporary Header */
+header {
+    width: 375px;
+    height: 91px;
+    background-color: #517201;
+}
+
+.container {
+    /* Layout Properties */
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+/* Title CSS */
+.title {
+    /* Layout Properties */
+    width: 160px;
+    height: 20px;
+    /* UI Properties */
+    background: #517201 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    /* Text Properties */
+    text-align: center;
+    font: Regular 14px/19px;
+    font-family: 'Forte';
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
