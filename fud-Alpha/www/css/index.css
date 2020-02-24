@@ -31,7 +31,7 @@
 
     /* Temporary Header */
     header {
-        width: 375px;
+        width: 100%;
         height: 91px;
         background-color: #517201;
     }
@@ -78,11 +78,11 @@
     }
 
     /* Large Recipe Box CSS */
-    .largeRecipeBox-container {
+    .largeRecipeBox {
         /* Layout Properties */
         top: 141px;
         left: 16px;
-        width: 343px;
+        width: 100%;
         height: 150px;
         /* UI Properties */
         background: transparent url('#') 0% 0% no-repeat padding-box;
