@@ -67,14 +67,46 @@
    /* Slideshow CSS */
    .slideshow-container {
        /* Layout Properties */
-       height: 163px; /* Accounts for recipeBox + padding btwn + dots */
        width: 343px;
        padding-top: 12px;
    }
 
-   /* List Area */
+   /* Dots-container CSS */
+   .dots-container {
+       /* Layout Properties */
+       text-align: center;
+   }
+
+   /* Dots CSS */
+   .dots {
+    /* Layout Properties */
+    height: 6px;
+    width: 6px;
+    /* UI Properties */
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 26px;
+   }
+
+   /* Slider CSS */
+   .slider{
+       width: 100%;
+       height: 100%;
+   }
+
+   /* List Area CSS */
    .listArea-container {
        /* Layout Properties */
+       width: 343px;
+       margin-top: 12px; 
+       display: block;
+   }
+
+   /* Recipe Box's inside the list area  */
+   .listArea-container div {
+       /* Layout Properties */
+       display: inline-block;
    }
 
    /* Large Recipe Box CSS */
@@ -90,6 +122,19 @@
        border: 3px solid #E9DFB6;
        border-radius: 5px;
        opacity: 0.9;
+   }
+
+   /* Recipe Box CSS */
+   .recipeBox {
+       /* Layout Properties */
+       width: 107px;
+       height: 100px;
+       margin-right: 11px;
+       /* UI Properties */
+       box-shadow: 0px 3px 6px #00000029;
+       border: 3px solid #E9DFB6;
+       border-radius: 8px;
+       opacity: 1;
    }
 
 
