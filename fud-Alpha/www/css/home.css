@@ -27,6 +27,8 @@
    /* Body CSS */
    body {
        background-color: #C6BE9E;
+       height: 100vh;
+       width: 100vw;
    }
 
    /* Temporary Header */
@@ -39,7 +41,10 @@
    /* Container CSS */
    .container {
        /* Layout Properties */
-       margin:18px 16px 0px 16px;
+       margin-top: 18px;
+       margin-left: 16px;
+       margin-right: 16px;
+       width: 343px;
        /* UI Properties */
        border-bottom: 2px dashed #517201;
    }
@@ -67,7 +72,7 @@
    /* Slideshow CSS */
    .slideshow-container {
        /* Layout Properties */
-       width: 343px;
+       width: 100%;
        padding-top: 12px;
    }
 
@@ -98,15 +103,19 @@
    /* List Area CSS */
    .listArea-container {
        /* Layout Properties */
-       width: 343px;
+       width: 100%;
        margin-top: 12px; 
-       display: block;
+       margin-bottom: 14.5px;
    }
 
-   /* Recipe Box's inside the list area  */
-   .listArea-container div {
-       /* Layout Properties */
-       display: inline-block;
+    /* Grid CSS for list area */
+   .grid-container {
+        display: grid;
+        /* Create 3 columns */
+        grid-template-columns: repeat(3, 107px);
+        /* Only defined one row size so only 1 row is created */
+        grid-template-rows: 100px;
+        grid-column-gap: 11px;
    }
 
    /* Large Recipe Box CSS */
@@ -129,7 +138,6 @@
        /* Layout Properties */
        width: 107px;
        height: 100px;
-       margin-right: 11px;
        /* UI Properties */
        box-shadow: 0px 3px 6px #00000029;
        border: 3px solid #E9DFB6;
