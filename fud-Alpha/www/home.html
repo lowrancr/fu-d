@@ -17,11 +17,12 @@
          Temp Header
      </header>
      <main>
-         <div class="container">
+         <!-- My feed section -->
+        <div class="container">
              <!-- Act as a container for all elements -->
              <div class="title">
                  <!-- Title for section. Example: "My Feed" -->
-                 My Feed
+                 <span>My Feed</span>
              </div>
              <div class="slideshow-container">
                  <!-- Will house the larger Recipe Box and the sliding dots -->
@@ -44,10 +45,50 @@
                      <!-- Use a seperate container for the grid; ui properties kept to the listArea -->
                     <div class="recipeBox">1</div>
                     <div class="recipeBox">2</div>
-                    <div class="recipeBox">3</div>
+                    <div class="showMoreBox">
+                        <div class="showMoreContent">
+                            <span>Show More!!!</span>
+                        </div>
+                    </div>
                  </div>
              </div>
-             </div>
+        </div>
+        <!-- Recommended section -->
+        <div class="container">
+            <!-- Act as a container for all elements -->
+            <div class="title">
+                <!-- Title for section. Example: "My Feed" -->
+                <span>Recomended</span>
+            </div>
+            <div class="slideshow-container">
+                <!-- Will house the larger Recipe Box and the sliding dots -->
+                <div class="slider">
+                    <!-- This will be what we slide on to slide all the content -->
+                    <div class="largeRecipeBox">
+                       <!-- The main recipe box in My Feed -->
+                   </div>
+                </div>
+                <!-- Dots/bullets/page indicators -->
+                <div class="dots-container">
+                    <span class="dots"></span>
+                    <span class="dots"></span>
+                    <span class="dots"></span>
+                </div>
+            </div>
+            <div class="listArea-container">
+                <!-- Area that will house the 3 recipes below the slideshow -->
+                <div class="grid-container">
+                    <!-- Use a seperate container for the grid; ui properties kept to the listArea -->
+                   <div class="recipeBox">1</div>
+                   <div class="recipeBox">2</div>
+                   <div class="showMoreBox">
+                       <div class="showMoreContent">
+                           <span>Show More!!!</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+       </div>
      </main>
      <footer>
  

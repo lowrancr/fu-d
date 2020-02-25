@@ -96,6 +96,9 @@
        display: inline-block;
        margin-right: 26px;
    }
+   .dots:first-of-type {
+       margin-left: 8%;
+   }
 
    /* Slider CSS */
    .slider{
@@ -151,6 +154,40 @@
        border: 3px solid #E9DFB6;
        border-radius: 8px;
        opacity: 1;
+   }
+
+   /* Show More Box CSS */
+   .showMoreBox {
+       /* Layout Properties */
+       width: 107px;
+       height: 100px;
+       /* Box sizing removes the border from adding pixels and just accounting them in the total */
+       box-sizing: border-box;
+       /* UI Properties */
+       box-shadow: 0px 3px 6px #00000029;
+       border: 3px solid #E9DFB6;
+       border-radius: 8px;
+       opacity: 1;
+       background-color: #517201;
+   }
+
+   /* Show More Box Content */
+   .showMoreContent {
+       /* Layout Properties */
+        width: 93px;
+        height: 87px;
+        transform: matrix(0.93, -0.37, 0.37, 0.93, 0, 0);
+        padding-top: 20%;
+        padding-left: 5%;
+        /* UI Properties */
+        text-align: center;
+        font: Regular 20px/32px MV Boli;
+        font-family: 'Forte';
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: -5px 8px 1px #0000005C;
+        text-transform: uppercase;
+        opacity: 1;
    }
 
 
