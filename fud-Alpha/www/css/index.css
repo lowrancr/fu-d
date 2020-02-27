@@ -16,6 +16,10 @@
    src: url("/fonts/FORTE.TTF") format('truetype');
 }
 
+body {
+    width: 375px;
+}
+
 /* Loading Screen CSS */
 .load-wrapper {
     /* Layout Properties */
