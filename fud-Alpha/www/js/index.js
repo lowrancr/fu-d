@@ -5,6 +5,6 @@
  */
 function loader() {
     var preload = document.getElementById("load-wrapper");
-    preload.style.animation = "fadeout .5s ease";
+    preload.style.animation = "fadeout 5s ease-out";
     window.location.replace("home.html");
     }
