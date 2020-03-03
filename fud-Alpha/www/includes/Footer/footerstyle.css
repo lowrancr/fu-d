@@ -1,0 +1,31 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+.footer{
+background-color: #517201;
+width: 100%;
+position: absolute;
+bottom: 0;
+text-align: center;
+color: white;
+height: 100px;
+display: flex;
+flex-wrap: wrap;
+font-family: 'Forte';
+}
+.col_1 {
+    float: left;
+    width: 20%;
+}
+.col_2 {
+    width: 50%;
+    text-align: left;
+}
+.col_3 {
+    width: 30%;
+}
+img {
+    width: 30%;
+    height: auto;
+}
