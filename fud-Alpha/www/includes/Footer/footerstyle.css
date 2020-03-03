@@ -1,15 +1,16 @@
-body {
-    background-color: darkgoldenrod;
-}
+/*
+    Author: Heather
+    Last modified: 03/03/20
+    Last modified by: Sam Lohbeck 
+*/
 
-#footer{
+footer{
 background-color: #517201;
 width: 100%;
-position: absolute;
-bottom: 0;
+margin-top: 12px;
 text-align: center;
 color: white;
-height: 100px;
+height: 169px;
 display: flex;
 flex-wrap: wrap;
 font-family: 'Forte';
@@ -25,7 +26,7 @@ font-family: 'Forte';
 .col_3 {
     width: 30%;
 }
-img {
+footer div img {
     width: 30%;
     height: auto;
 }
