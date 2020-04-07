@@ -40,7 +40,7 @@
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="{StaticResource Primary}"
-                  HeightRequest="200">
+                  HeightRequest="100">
                 <!--TODO: Image for header or just manipulate the header -->
                 <Label Text="Fu-D" TextColor="{StaticResource Text}"
                        FontAttributes="Bold"

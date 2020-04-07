@@ -1016,24 +1016,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samlo\\.nuget\\packages\\": {},
+    "C:\\Users\\Computer\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.iOS\\FuD.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.iOS\\FuD.iOS.csproj",
       "projectName": "FuD.iOS",
-      "projectPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.iOS\\FuD.iOS.csproj",
-      "packagesPath": "C:\\Users\\samlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.iOS\\FuD.iOS.csproj",
+      "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\samlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1047,8 +1047,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
-              "projectPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj"
+            "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
+              "projectPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj"
             }
           }
         }
