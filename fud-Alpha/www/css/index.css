@@ -32,6 +32,7 @@ body {
     z-index: 1;
     /* UI Properties */
     background-color: #517201;
+    opacity: 1;
 }
 .load-wrapper h1 {
     /* Layout Properties */
@@ -60,7 +61,7 @@ body {
     margin-right: 29px;
 }
 
-/* Loading screen animation  */
+/* Loading screen animation */
 @keyframes fadeout {
     0% {opacity: 1;}
     100% {opacity: 0;}

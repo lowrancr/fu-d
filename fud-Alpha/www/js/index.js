@@ -8,3 +8,4 @@ function loader() {
     preload.style.animation = "fadeout 5s ease-out";
     window.location.replace("home.html");
     }
+
