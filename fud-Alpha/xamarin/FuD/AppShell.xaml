@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:FuD.Views"
+             mc:Ignorable="d"
+             x:Class="FuD.AppShell"
+             Title="Fu-D"
+             Style="{StaticResource DomesticShell}"
+             >
+
+    <!--
+        Reference to the Microsoft Doc on using Shell to build the application:
+        https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/
+    
+        All icons created by Freepik from flaticon.com 
+        Website - http://www.freepik.com
+    -->
+    
+    <!--
+        Styles and Resources
+    -->
+    <Shell.Resources>
+        <ResourceDictionary>
+            <!--Colors located in App.xaml so they are globally accessible-->
+            <Style x:Key="DomesticShell" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}"/>
+                <Setter Property="Shell.ForegroundColor" Value="{StaticResource Text}"/>
+                <Setter Property="Shell.TitleColor" Value="{StaticResource Text}"/>
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}"/>
+                <Setter Property="Shell.DisabledColor" Value="{StaticResource DisabledColor}"/>
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <!--
+    Flyout
+    -->
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="{StaticResource Primary}"
+                  HeightRequest="200">
+                <!--TODO: Image for header or just manipulate the header -->
+                <Label Text="Fu-D" TextColor="{StaticResource Text}"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <!--
+    Breakpoint is on so if you try to click on a page that has not been 
+    implemented yet it will throw error:
+    
+    System.InvalidOperationException: 
+    'No Content found for ShellContent, Title:Search, Route ShellContent81'
+    
+    This is okay restart the app it just means that the page has not been 
+    implemented yet, hence "No content" 👍
+    --> 
+    
+    <FlyoutItem Title="Fu-D" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title ="Home" Icon="home.png">
+            <views:HomePage/>
+        </ShellContent>
+        <ShellContent Title="Search" Icon="search.png">
+            <!--TODO: Search View-->
+        </ShellContent>
+        <ShellContent Title="New" Icon="plus.png">
+            <!--TODO: New View-->
+        </ShellContent>
+        <ShellContent Title="Saved" Icon="heart.png">
+            <!--TODO: Saved View-->
+        </ShellContent>
+        <ShellContent Title="Profile" Icon="user.png">
+            <!--TODO: Profile View-->
+        </ShellContent>
+    </FlyoutItem>
+ 
+</Shell>

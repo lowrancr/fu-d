@@ -1,0 +1,14 @@
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\bin\Debug\netstandard2.0\FuD.deps.json
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\bin\Debug\netstandard2.0\FuD.dll
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\bin\Debug\netstandard2.0\ref\FuD.dll
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\bin\Debug\netstandard2.0\FuD.pdb
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\FuD.csprojAssemblyReference.cache
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\FuD.AssemblyInfoInputs.cache
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\FuD.AssemblyInfo.cs
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\FuD.dll
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\ref\FuD.dll
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\FuD.pdb
+C:\Users\samlo\OneDrive\Desktop\Fu-D\App\FuD\FuD\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
